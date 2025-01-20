@@ -1,0 +1,38 @@
+/* Optional: Ensuring that cards are rectangular and aligned */
+#services .service-card {
+  border-radius: 8px; /* Rounded corners for the cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding some shadow to the cards */
+  padding: 20px;
+  height: 100%; /* Ensure that all cards are the same height */
+  background-color: white;
+}
+
+#services .service-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Makes sure the content inside is evenly spaced */
+}
+
+#services .row {
+  display: flex;
+  justify-content: center; /* Center-align cards horizontally */
+}
+
+#services .col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Stretch the cards to be the same height */
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  align-items:center;
+}
+
+@media (max-width: 768px) {
+  #services .col-md-4 {
+    /* Adjust the layout for smaller screens (stacking vertically on mobile) */
+    flex: 1 1 100%;
+  }
+}

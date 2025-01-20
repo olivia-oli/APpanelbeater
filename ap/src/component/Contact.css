@@ -1,0 +1,40 @@
+/* Contact Component */
+#contact {
+    background-color: #fff;
+    
+}
+  
+#contact .form-group {
+    margin-bottom: 20px;
+}
+  
+#contact .form-label {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+  
+#contact .form-control {
+    font-size: 2rem;
+}
+  
+#contact .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+  
+#contact button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+  
+#contact button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.py-5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,31 @@
+/* Header Component */
+.header-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.logo{
+    width:250px;
+    height: auto;
+    
+}
+
+.nav-link{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:0;
+    padding:0;
+ 
+}
+
+.nav-link-black{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: red;
+}
+
